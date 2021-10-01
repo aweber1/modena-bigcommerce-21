@@ -17,9 +17,7 @@
 
   BIGCOMMERCE_STORE_HASH='Store hash from BigCommerce'
   BIGCOMMERCE_TOKEN='API token from BigCommerce'
-
-  NPM_TOKEN='NPM Token for Uniform packages'
-
+  
 [[headers]]
   for = "*.css"
   [headers.values]
