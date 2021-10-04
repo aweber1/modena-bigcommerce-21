@@ -7,7 +7,6 @@ import { contentfulModelConverter } from './contentful/contentfulModelConverter'
 
 import { bigCommerceEnhancer } from './bigcommerce/bigCommerceEnhancer';
 import { CANVAS_BIGCOMMERCE_PARAMETER_TYPES } from '@uniformdev/canvas-bigcommerce';
-
 import { bigCommerceModelConverter } from './bigcommerce/bigCommerceModelConverter';
 
 const { serverRuntimeConfig } = getConfig();

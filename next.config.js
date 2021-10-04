@@ -24,9 +24,9 @@ module.exports = withBundleAnalyzer({
     path: 'https://res.cloudinary.com/uniformdev/image/fetch',
   },
   publicRuntimeConfig: {
-    gaTrackingId: process.env.GA_UA_ID,
-    previewEnabled: process.env.UNIFORM_PREVIEW_ENABLED,
-    previewSecret: process.env.UNIFORM_PREVIEW_SECRET,
+    gaTrackingId: process.env.GA_UA_ID || '',
+    previewEnabled: process.env.UNIFORM_PREVIEW_ENABLED || false,
+    previewSecret: process.env.UNIFORM_PREVIEW_SECRET || '',
   },
   future: {
     webpack5: false,
